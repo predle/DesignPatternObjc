@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451068A31E41765600B14AAE /* AbstractFactoryPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 451068A21E41765600B14AAE /* AbstractFactoryPattern.m */; };
+		451068A71E419F5200B14AAE /* AdapterPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 451068A61E419F5200B14AAE /* AdapterPattern.m */; };
 		457A4B891E4093A4003DFEBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A4B881E4093A4003DFEBB /* main.m */; };
 		457A4B951E4093C5003DFEBB /* BuilderPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A4B901E4093C5003DFEBB /* BuilderPattern.m */; };
 		457A4B961E4093C5003DFEBB /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A4B921E4093C5003DFEBB /* Demo.m */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		451068A11E41765600B14AAE /* AbstractFactoryPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryPattern.h; sourceTree = "<group>"; };
+		451068A21E41765600B14AAE /* AbstractFactoryPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryPattern.m; sourceTree = "<group>"; };
+		451068A51E419F5200B14AAE /* AdapterPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterPattern.h; sourceTree = "<group>"; };
+		451068A61E419F5200B14AAE /* AdapterPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterPattern.m; sourceTree = "<group>"; };
 		457A4B851E4093A4003DFEBB /* DesignPatternObjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatternObjc; sourceTree = BUILT_PRODUCTS_DIR; };
 		457A4B881E4093A4003DFEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		457A4B8F1E4093C5003DFEBB /* BuilderPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderPattern.h; sourceTree = "<group>"; };
@@ -47,6 +53,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451068A01E41763F00B14AAE /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				451068A81E41B7E200B14AAE /* Structural Patterns */,
+				451068A41E41826B00B14AAE /* Creational Patterns */,
+			);
+			name = Patterns;
+			sourceTree = "<group>";
+		};
+		451068A41E41826B00B14AAE /* Creational Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				457A4B8F1E4093C5003DFEBB /* BuilderPattern.h */,
+				457A4B901E4093C5003DFEBB /* BuilderPattern.m */,
+				457A4B931E4093C5003DFEBB /* FactoryPattern.h */,
+				457A4B941E4093C5003DFEBB /* FactoryPattern.m */,
+				451068A11E41765600B14AAE /* AbstractFactoryPattern.h */,
+				451068A21E41765600B14AAE /* AbstractFactoryPattern.m */,
+			);
+			name = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		451068A81E41B7E200B14AAE /* Structural Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				451068A51E419F5200B14AAE /* AdapterPattern.h */,
+				451068A61E419F5200B14AAE /* AdapterPattern.m */,
+			);
+			name = "Structural Patterns";
+			sourceTree = "<group>";
+		};
 		457A4B7C1E4093A4003DFEBB = {
 			isa = PBXGroup;
 			children = (
@@ -66,13 +103,10 @@
 		457A4B871E4093A4003DFEBB /* DesignPatternObjc */ = {
 			isa = PBXGroup;
 			children = (
+				451068A01E41763F00B14AAE /* Patterns */,
 				457A4B881E4093A4003DFEBB /* main.m */,
-				457A4B8F1E4093C5003DFEBB /* BuilderPattern.h */,
-				457A4B901E4093C5003DFEBB /* BuilderPattern.m */,
 				457A4B911E4093C5003DFEBB /* Demo.h */,
 				457A4B921E4093C5003DFEBB /* Demo.m */,
-				457A4B931E4093C5003DFEBB /* FactoryPattern.h */,
-				457A4B941E4093C5003DFEBB /* FactoryPattern.m */,
 			);
 			path = DesignPatternObjc;
 			sourceTree = "<group>";
@@ -135,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451068A71E419F5200B14AAE /* AdapterPattern.m in Sources */,
 				457A4B951E4093C5003DFEBB /* BuilderPattern.m in Sources */,
 				457A4B971E4093C5003DFEBB /* FactoryPattern.m in Sources */,
+				451068A31E41765600B14AAE /* AbstractFactoryPattern.m in Sources */,
 				457A4B961E4093C5003DFEBB /* Demo.m in Sources */,
 				457A4B891E4093A4003DFEBB /* main.m in Sources */,
 			);
@@ -267,6 +303,7 @@
 				457A4B8E1E4093A4003DFEBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

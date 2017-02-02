@@ -1,5 +1,5 @@
 //
-//  AbstractFactoryPattern.m
+//  FactoryPattern.m
 //  Demo
 //
 //  Created by Beomseok Seo on 1/31/17.
@@ -13,7 +13,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        self.name = @"Model S";
+        self.name = @"None";
     }
     return self;
 }

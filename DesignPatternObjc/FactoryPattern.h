@@ -1,5 +1,5 @@
 //
-//  AbstractFactoryPattern.h
+//  FactoryPattern.h
 //  Demo
 //
 //  Created by Beomseok Seo on 1/31/17.
